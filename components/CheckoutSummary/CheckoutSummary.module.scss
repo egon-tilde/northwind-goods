@@ -1,0 +1,47 @@
+@use '../../styles/tokens' as *;
+
+.summary {
+  @include card;
+  position: sticky;
+  top: 5rem;
+}
+
+.title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: $ink;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: $muted;
+  margin-top: 0.6rem;
+
+  &.total {
+    color: $ink;
+    font-weight: 700;
+    font-size: 1.05rem;
+    border-top: 1px solid #e7e5e4;
+    padding-top: 0.75rem;
+  }
+}
+
+.discount {
+  color: #be123c;
+}
+
+.checkout {
+  margin-top: 1.25rem;
+  width: 100%;
+  background: $brand;
+  color: white;
+  border-radius: 999px;
+  padding: 0.7rem;
+  font-weight: 600;
+
+  &:disabled {
+    opacity: 0.5;
+  }
+}

@@ -1,0 +1,11 @@
+$brand: #0f766e;
+$ink: #1c1917;
+$muted: #78716c;
+$radius: 1rem;
+
+@mixin card {
+  background: white;
+  border-radius: $radius;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  padding: 1.25rem;
+}
