@@ -1,0 +1,31 @@
+@import 'tailwindcss';
+
+:root {
+  --brand: #0f766e;
+  --brand-ink: #134e4a;
+  --sand: #faf7f2;
+}
+
+body {
+  background: var(--sand);
+  color: #1c1917;
+}
+
+.site-footer {
+  background: #1c1917;
+  color: #d6d3d1;
+  padding: 3rem 1.5rem;
+  margin-top: 4rem;
+}
+
+.site-footer a {
+  color: #a8a29e;
+}
+
+.site-footer .footer-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  max-width: 72rem;
+  margin: 0 auto;
+}

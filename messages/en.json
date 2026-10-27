@@ -1,0 +1,28 @@
+{
+  "home": {
+    "title": "Everyday goods, shipped fast",
+    "subtitle": "Hand-picked products from {count} categories, priced in your currency.",
+    "cta": "Shop the flash sale",
+    "flashSale": "Flash sale ends in {time}"
+  },
+  "product": {
+    "addToCart": "Add to cart",
+    "inStock": "{count} in stock",
+    "outOfStock": "Sold out",
+    "reviews": "What shoppers say"
+  },
+  "cart": {
+    "title": "Your cart",
+    "empty": "Your cart is empty. Time to fix that.",
+    "checkout": "Proceed to checkout",
+    "promoPlaceholder": "Promo code"
+  },
+  "newsletter": {
+    "title": "Get 10% off your first order",
+    "submit": "Subscribe"
+  },
+  "account": {
+    "title": "Sign in",
+    "hint": "Try emilys / emilyspass (DummyJSON test user)"
+  }
+}

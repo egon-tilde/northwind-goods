@@ -1,0 +1,53 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: rgba(250, 247, 242, 0.92);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid #e7e5e4;
+}
+
+.inner {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 0.85rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.logo {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  font-size: 1.25rem;
+  color: var(--brand-ink);
+}
+
+.nav {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.9rem;
+  margin-left: auto;
+}
+
+.navLink {
+  color: #44403c;
+}
+
+.navLink:hover {
+  color: var(--brand);
+}
+
+.cartBadge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 999px;
+  background: var(--brand);
+  color: white;
+  font-size: 0.7rem;
+  margin-left: 0.25rem;
+  padding: 0 0.3rem;
+}
